@@ -1,8 +1,8 @@
 settings:
   title: '服务器运行状态监控'
-  url: 'https://status-page.eidam.dev'
+  url: 'https://status.easysys.buzz'
   logo: logo-192x192.png
-  daysInHistogram: 90
+  daysInHistogram: 1
   collectResponseTimes: true
 
   allmonitorsOperational: '所有系统正常运行'
@@ -18,15 +18,15 @@ monitors:
   - id: 1
     name: 主站
     description: ''
-    url: 'https://easysys.top'
+    url: 'https://www.hostloc.com'
     method: GET
     expectStatus: 200
     followRedirect: true
     linkable: true
     
   - id: 2
-    name: 博客
-    description: 'E博客'
+    name: E博客
+    description: '博客'
     url: 'https://blog.easysys.top'
     method: GET
     expectStatus: 200
@@ -34,8 +34,8 @@ monitors:
     linkable: true
     
   - id: 3
-    name: getmyfile
-    description: 'Get文章文件'
+    name: Getmyfile
+    description: '下载文章文件'
     url: 'https://getmyfile.easysys.top'
     method: GET
     expectStatus: 200
@@ -44,7 +44,7 @@ monitors:
      
   - id: 4
     name: ECDN
-    description: '一个静态资源CDN'
+    description: '静态资源CDN'
     url: 'https://cdn.easysys.top'
     method: GET
     expectStatus: 200
@@ -52,8 +52,8 @@ monitors:
     linkable: true
     
   - id: 5
-    name: Get!
-    description: 'Get文件的云盘'
+    name: EGet！
+    description: 'Get你的文件'
     url: 'https://get.easysys.top'
     method: GET
     expectStatus: 200
@@ -61,7 +61,7 @@ monitors:
     linkable: true
 
   - id: 6
-    name: E图床
+    name: EPIC
     description: '图床'
     url: 'https://pic.easysys.top'
     method: GET
@@ -77,21 +77,3 @@ monitors:
     expectStatus: 200
     followRedirect: true
     linkable: true
-    
-  - id: 8
-    name: 控制台
-    description: '服务器控制台'
-    url: 'https://consle.easysys.top'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    linkable: true
-    
-  - id: 8
-    name: 中国深圳服务器
-    description: ''
-    url: '103.44.238.46	'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    linkable: false
