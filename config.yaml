@@ -2,7 +2,7 @@ settings:
   title: '服务器运行状态监控'
   url: 'https://status.easysys.buzz'
   logo: logo-192x192.png
-  daysInHistogram: 1
+  daysInHistogram: 7
   collectResponseTimes: true
 
   allmonitorsOperational: '所有系统正常运行'
